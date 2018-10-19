@@ -1,0 +1,23 @@
+{
+    "name": "koderhut/securitytxt",
+    "description": "A package to generate a security.txt file",
+    "type": "library",
+    "autoload": {
+        "psr-4": { "KoderHut\\SecurityTxt\\": "src/"},
+        "exclude-from-classmap": [ "/Tests/" ]
+    },
+    "autoload-dev": { "psr-4": { "KoderHut\\SecurityTxt\\Tests\\": "Tests/" } },
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "symfony/console": "^4.1",
+        "symfony/flex": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Denis-Florin Rendler",
+            "email": "connect@rendler.me"
+        }
+    ],
+    "require": {}
+}
