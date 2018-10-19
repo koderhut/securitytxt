@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/koderhut/securitytxt.svg?branch=master)](https://travis-ci.org/koderhut/securitytxt)
+
 # SecurityTXT
 A set of classes to help build a security.txt file in OO manner.
 For a more detailed description of the security.txt file please visit: [securitytxt.org](http://securitytxt.org)
@@ -17,7 +19,7 @@ $document->addDirective($contact);
 
 The last step is to simply cast to string or call __toString():
 ```php
-echo $document->__toStrin();
+echo $document->__toString();
 ```
 
 ## LICENSE
