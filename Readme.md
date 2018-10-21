@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/koderhut/securitytxt.svg?branch=master)](https://travis-ci.org/koderhut/securitytxt)
+[![Coverage Status](https://coveralls.io/repos/github/koderhut/securitytxt/badge.svg?branch=master)](https://coveralls.io/github/koderhut/securitytxt?branch=master)
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+![PHP from Travis config](https://img.shields.io/travis/php-v/symfony/symfony.svg)
 
 # SecurityTXT
 A set of classes to help build a security.txt file in OO manner.
